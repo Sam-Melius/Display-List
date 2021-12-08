@@ -111,3 +111,68 @@ footer {
     }
 
   }
+
+  #genres-list {
+    display: flex;
+}
+
+.genre {
+    border: solid 1px black;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#instruments-list {
+    display: flex;
+}
+
+.instrument {
+    text-align: center;
+    margin: 10px;
+}
+
+.instrument img {
+    max-height: 200px;
+    max-width: 200px;;
+}
+
+
+
+.musician {
+    border: solid 10px black;
+    min-width: 500px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    align-items: center;
+}
+
+.musician img{ 
+    max-height: 300px;
+    max-width: 300px;
+}
+.musician .band {
+    border: solid 2px red;
+    max-width: 80%;
+    margin: 20px;
+}
+
+.musician p {
+    font-size: 2rem;
+}
+
+.album {
+    display: flex;
+    flex-direction: column;
+    border: solid 1px gray;
+    margin: 20px;
+    padding: 20px;
+}
+
+.album .track {
+    margin: 5px;
+    align-self: flex-end;
+    background-color: lightgrey;
+    width: fit-content
+}
