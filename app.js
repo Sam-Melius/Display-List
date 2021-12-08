@@ -11,7 +11,7 @@ import albums from './albums.js';
 const genresEl = document.getElementById('genres-list');
 const instrumentsEl = document.getElementById('instruments-list');
 const musiciansEl = document.querySelector('#musicians-list');
-const albumsEl = document.querySelector('albums-list');
+const albumsEl = document.querySelector('#albums-list');
 // initialize global state
 
 for (let genre of genres) {
@@ -27,7 +27,6 @@ for (let instrument of instruments) {
 }
 
 for (let musician of musicians) {
-    
     const musicianEl = renderMusician(musician);
   
     musiciansEl.append(musicianEl);
@@ -35,7 +34,7 @@ for (let musician of musicians) {
 
 for (let album of albums) {
     const albumEl = renderAlbum(album);
-
+    
     albumsEl.append(albumEl);
 }
 
